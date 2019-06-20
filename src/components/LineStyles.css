@@ -1,0 +1,12 @@
+.line-container {
+    width : 30px;
+    height : 100px;
+    display : flex;
+    justify-content : center;
+}
+
+.line {
+    height : 100%;
+    width : 20%;
+    background-color : blue;
+}
