@@ -6,7 +6,8 @@
 }
 
 .line {
-    height : 100%;
-    width : 20%;
+    height : 0;
+    width : 0;
     background-color : blue;
+    transition : "2s";
 }

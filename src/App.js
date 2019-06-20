@@ -1,19 +1,15 @@
-import React from 'react';
-import Box from "./components/Box.js";
-import Line from "./components/Line.js";
 
-function App() {
-  return (
-    <div className="App">
-        <Box/>
-        <Line/>
-        <Box/>
-        <Line/>
-        <Box/>
-        <Line/>
-        <Box/>
-    </div>
-  );
+import React, {useState} from 'react';
+import Box from './components/Box';
+import Line from "./components/Line"
+
+function App(props){
+    return (
+        <div className = "App">
+            <Box/>
+            <Line/>
+        </div>
+    )
 }
 
 export default App;
